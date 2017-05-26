@@ -1,0 +1,124 @@
+#header {
+	background-image: url("banner.fw.png");
+	background-size: 1280px 400px;
+	width: 1280px;
+	height: 400px;
+}
+
+body {
+	background-color: #FFF;
+	color: #5900B2;
+	
+}
+
+#nav {
+	text-align: center;
+	width: 1280px;
+	height: 50px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Dejavu Sans", Verdana, sans-serif;
+	color: #5900B2;
+	font-weight: bolder;
+	font-size: larger;
+	border-top-style: solid;
+	border-top-color: #0059B2;
+	border-bottom-style: solid;
+	border-bottom-style: #0059B2;
+}
+
+#container {
+	background-color: #98CCFF;
+	width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Dejavu Sans", Verdana, sans-serif;
+	color: #5900B2;
+}
+
+#content {
+	padding: 10px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Dejavu Sans", Verdana, sans-serif;
+	color: #5900B2;
+}
+
+#main {
+	width: 840px;
+	float: left;
+	margin-bottom: 100px;
+}
+
+#side {
+	border-left-style: solid;
+	border-left-color: #0059B2;
+	width: 410px;
+	float: right;
+	background-color: #98CCFF;
+}
+
+#footer {
+	border-top-style: solid;
+	border-top-color: #0059B2;
+	clear: both;
+	width: 1280px;
+	height: auto;
+	background-image: url("foot.fw.png");
+	
+}
+
+#footxt {
+	margin-left: 25px;
+	color: #5900B2;
+}
+
+.t1 {
+	background-color: #0059B2;
+	border-bottom: 1px solid #ddd;
+}
+
+.annbtn {
+	background-color: #0059B2; 
+    border: none;
+    color: #98CCFF;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	width: 100%;
+}
+
+.annbtn:hover {
+	background-color: #5900B2;
+	color: #0059B2;
+}
+
+a {
+	text-decoration: none;
+	color: #5900B2;
+}
+
+a:hover {
+	color: white;
+}
+
+.feebtn {
+	background-color: #0059B2;
+	border: none;
+	padding: 10px 24px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	width: 100%;
+}
+
+.feebtn:hover {
+	background-color: #5900B2;
+}
+
+.ted {
+	border-bottom-style: solid;
+	border-bottom-color: #0059B2;
+}
+
+
+

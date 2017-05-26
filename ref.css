@@ -1,0 +1,491 @@
+body {
+	background-color: #AFE1FF;
+	color: #322946;
+}
+
+a {
+	text-decoration: none;
+	color: #AFE1FF;
+}
+
+a:hover {
+	color: #FFFFFF;
+}
+
+#header {
+	width: 90%;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("banner.fw.png");
+	color: #726A43;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-color: #D0BA93;
+}
+
+#nav {
+	width: 90%;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #322946;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Dejavu Sans", Verdana, sans-serif;
+	font-weight: bolder;
+	font-size: larger;
+}
+
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#content {
+	width: 90%;
+	height: 800px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Dejavu Sans", Verdana, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #32DFFA;
+}
+
+#main {
+	width: 60%;
+	height: auto;
+	float: left;
+	background-color: #32DFFA;
+	padding-left: 2%;
+	color: #322946;
+	padding-top: 10px;
+}
+
+#side {
+	background-color: #0EAFE4;
+	width: 38%;
+	height: auto;
+	float: right;
+	color: #322946;
+	padding-top: 20px;
+}
+
+#footer {
+	padding-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+	width: 90%;
+	height: auto;
+	background-color: #D0BA93;
+}
+
+#footxt {
+	margin-top: 10px;
+	margin-left: 25px;
+	color: #5900B2;
+}
+
+.annbtn {
+	background-color: #322946;
+	border: none;
+	color: #AFE1FF;
+	padding: 10px 24px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	width: 100%;
+}
+
+.annbtn:hover {
+	background-color: #726A43;
+}
+	
+.feebtn {
+	background-color: #322946;
+	border: none;
+	color: #AFE1FF;
+	padding: 10px 24px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	width: 100%;
+}
+
+.feebtn:hover {
+	background-color: #726A43;
+}
+
+.ted {
+	border-bottom-style: solid;
+	border-bottom-color: #064273;
+}
+
+.navbtn {
+	background-color: #322946;
+	border: none;
+	color: #AFE1FF;
+	padding: 10px 24px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	width: 100%;
+}
+
+.navbtn:hover {
+	background-color: #726A43;
+}
+
+@keyframes slider {
+	
+	0%	{
+		left: 0;
+	}
+	
+	20% {
+		left: 0;
+	}
+	
+	25% {
+		left: -100%;
+	}
+	
+	45% {
+		left: -100%;
+	}
+	
+	50% {
+		left: -200%;
+	}
+	
+	70% {
+		left: -200%;
+	}
+	
+	75% {
+		left: -300%;
+	}
+	
+	95% {
+		left: -300%;
+	}
+	
+	100% {
+		left: -400%;
+	}
+}
+
+#slider {
+	overflow: hidden;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 300px;
+}
+
+#slider figure img {
+	width: 20%;
+	float: left;
+}
+
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	text-align: left;
+	font-size: 0;
+	animation: 15s slider infinite;
+}
+.event {
+    float: left;
+    margin: 10px;
+    padding: 2px;
+    max-width: 300px;
+    height: 250px;
+    border: 1px solid black;
+	clear: both;
+}
+.event2 {
+    float: left;
+    margin: 10px;
+    padding: 2px;
+    max-width: 300px;
+    height: 250px;
+    border: 1px solid black;
+	margin-left: 100px;		
+}
+.event3 {
+    float: left;
+	display: inline-block;
+	height: 500px;
+	width: 400px;	 
+}
+.Pevent {
+	float: left;
+    margin: 10px;
+    padding: 10px;
+    max-width: 300px;
+    height: 250px;
+    border: 1px solid black;
+	clear: both;
+	pointer-events: none;
+}
+.Pevent2 {
+	float: left;
+    margin: 10px;
+    padding: 10px;
+    max-width: 300px;
+    height: 250px;
+    border: 1px solid black;
+	margin-left: 100px;	
+	pointer-events: none
+}
+
+
+
+.desc {
+	text-align: center;	
+	font-style: sans-serif;
+	font-weight: bold;
+	padding-top: 10px;
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+}
+.old {
+	clear: both; 
+	font-weight: bold;
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+}
+.button1{	
+    width: 150px;
+	background-color: #726A43;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	clear: both;
+}
+
+.button1 hover {
+	background-color: aquamarine;
+}
+
+
+.container1 {
+	width: autox;
+	height: auto;
+	text-align: left;
+	justify-content: center;
+	display: inline-block;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.container2 {
+	text-align: left;
+	clear: both;
+	justify-content: center;
+	display: inline-block;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+input[type=text], select {
+	width: 150px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=submit] {
+	width: 150px;
+	background-color: #726A43;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
+}
+
+
+input[type=radio]:checked + label:before{
+    background-color: #3e8e41;
+    border: 1px solid #cccc;
+    border-radius: 6px;
+    content: "";
+    height: 12px;
+    width: 12px;
+    text-align: center;
+}
+input[type=radio]:not(old):checked + label > span > span{
+    display: block;
+}
+.donation-container {
+	height: 700px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+	margin-top: 30px;
+}
+
+.donation-box {
+	width: 400px;
+	height: 400px;
+	background-color: #F5F5F5;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.donation-box .title {
+	background-color: #4CAF50;
+	width: 100%;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	color: white;
+	text-align: center;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	font-size: 15px;
+}
+
+.donation-box .donate-button {
+	background-color: #4CAF50;
+	width: 40%;
+	color: white;
+	text-align: center;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	font-size: 18px;
+	bottom: 0px;
+	position: absolute;
+	cursor: pointer;
+	font-weight: 800;
+}
+
+.donation-box .fields {
+	width: 60%;
+	display: block;
+	position: absolute;
+	top: 60px;
+	left: 15px;
+}
+
+.donation-box .fields input {
+	width: 90%;
+	font-size: 15px;
+	padding: 10px;
+	border-radius: 2px;
+	border-width: 0px;
+	color: #5C5C5C;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	margin-bottom: 10px;
+	-webkit-font-smoothing: antialiased;
+}
+.donation-box .amount {
+	width: 30%;
+	display: block;
+	position: absolute;
+	top: 60px;
+	right: 15px;
+}
+
+.donation-box .amount .button {
+	width: 100%;
+	background-color: gray;
+	margin-bottom: 10px;
+	text-align: center;
+	color: white;
+	padding: 15px 0px 15px 0px;
+	border-radius: 4px;
+	font-size: 20px;
+	cursor: pointer;
+
+}
+
+.donation-box .amount .button:hover {
+	background-color: #393939;
+}
+
+.donation-box .amount .button.selected {
+	background-color: #393939;
+}
+
+.donation-box .amount .button input {
+	min-width: 34px;
+	font-size: 20px;
+	font-weight: 500;
+	border: none;
+	background-color: transparent;
+	color: white;
+	font-family: Montserrat, sans-serif;
+	font-size: 20px;
+	font-stretch: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	border-bottom: 2px dashed white;
+	-webkit-font-smoothing: antialiased;
+}
+
+.set-amount {
+	max-width: 96px;
+}
+
+
+.checkboxes {
+	position: absolute;
+	top: 242px;
+	left: 13px;
+}
+
+.checkboxes label {
+	position: relative;
+	top: -8px;
+	font-size: 13px;
+	color: gray;
+}
+
+.checkbox {
+	
+	background-color: #fafafa;
+	border: 1px solid #C1D82F;
+	padding: 9px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+  outline: none;
+}
+
+.confirm {
+	display: none;
+	position: absolute;
+	top: 335px;
+	left: 15px;
+	right: 15px;
+	font-size: 16px;s
+	
+	-webkit-transition: all 0.15s ease-out;
+	-moz-transition: all 0.15s ease-out;
+	-o-transition: all 0.15s ease-out;
+	transition: all 0.15s ease-out;
+}
+
+.confirm i {
+	font-weight: bold;
+	text-decoration: underline;
+	font-style: normal;
+}

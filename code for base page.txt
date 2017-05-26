@@ -1,0 +1,117 @@
+<html>
+
+	<head>
+		<title>The Barrier Reef Orchestra</title>
+		<link rel="stylesheet" type="text/css" href="main.css" />
+	</head>
+	
+	<body>
+		<div id="container">
+		
+			<div id="header">
+			</div>
+			
+			<div id="nav">
+				<table width="1280" border="0">
+					<tbody>
+						<tr>
+							<td><a href="index.html"><font size="5"><p align="middle">Home</p></font></a></td>
+							<td><a href="about.html"><font size="5"><p align="middle">About Us</p></font></a></td>
+							<td><a href="concert.html"><font size="5"><p align="middle">Concerts</p></font></a></td>
+							<td><a href="join.html"><font size="5"><p align="middle">Join Now</p></font></a></td>
+							<td><a href="support.html"><font size="5"><p align="middle">Support Us</p></font></a></td>
+							<td><a href="contact.html"><font size="5"><p align="middle">Contact Us</p></font></a></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			
+			<div id="content">
+			
+				<div id="main">
+				
+				</div>
+				
+				<div id="side">
+					<table border="0">
+						<tbody>
+							<tr>
+								<td class="ted">
+									<h3>Announcements</h3>
+									<ul>
+										<li>Upcoming Concert Cancelled</li>
+										<li>New Band Members Required</li>
+										<li>Conductor workshop to be held on Saturday</li>
+									</ul>
+									<br>
+									<button type="button" class="annbtn"><a href><font color="#99CCFF">View All Announcements</font></a></button>
+									<br>
+									<br>
+								</td>
+							</tr>
+							<tr>
+								<td class="ted">
+									<br>
+									<br>
+									<table border="0">
+										<tbody>
+											<tr>
+												<td><h2>Check Us Out On Facebook</h2></td>
+												<td>
+													<img src="fb.png" alt="Facebook Logo" style="width:250px;height:150px;" >
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									<br>
+									<br>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<h3>Submit Feedback</h3>
+									<form action="" method="get">
+										<i>Write Your Feedback Here:</i>
+										<textarea name="feedback" rows="8" cols="55">
+										</textarea>
+										<br>
+										<input type="submit" value="Submit Feedback">
+									</form>
+									<br>
+									<button type="button" class="feebtn"><a href=""><font color="99CCFF">View All Feedback</font></a></button>
+									<br>
+									<br>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				
+			
+			</div>
+			
+			<div id="footer">
+			
+				<div id="footxt">
+				<ul>
+				<h3>Quick Links</h3>
+					<li><a class="qlf" href>Artist Info</a></li>
+					<li><a class="qlf" href>Conductor Info</a></li>
+					<li><a class="qlf" href>Upcoming Events</a></li>
+					<li><a class="qlf" href>Venues</a></li>
+				</ul>
+				
+				<font color="white">
+				<p align="right">
+				Copyright &copy; 2017 Haydn Chapman, Vishula Gamaetige, Kieran Sanderson.
+				</p>
+				</font>
+	
+				</div>
+				
+			</div>
+			
+		</div>
+	</body>
+	
+</html>
